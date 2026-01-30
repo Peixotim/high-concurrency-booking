@@ -3,7 +3,7 @@ import { configDotenv } from "dotenv";
 
 configDotenv();
 
-const fastify = Fastify({
+export const fastify = Fastify({
   logger: false,
 });
 
